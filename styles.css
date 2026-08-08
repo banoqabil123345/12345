@@ -14,6 +14,58 @@ body {
   min-height: 100vh;
 }
 
+.site-header {
+  background: #000;
+  color: white;
+  padding: 18px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.brand {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.site-nav a {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  color: white;
+}
+
+.account-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1c1c1c;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+}
+
 .page-container {
   max-width: 900px;
   margin: 0 auto;
